@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color: #fafafa;
+  background-color: purple;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
