@@ -9,3 +9,6 @@ const open =document.querySelector('#open'),
       close.addEventListener('click', ()=> {
       	container.classList.remove('show-nav')
       })
+
+//date
+document.querySelector('#date').innerHTML = new Date().getFullYear()
