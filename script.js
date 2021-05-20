@@ -9,3 +9,11 @@ const open =document.querySelector('#open'),
       close.addEventListener('click', ()=> {
       	container.classList.remove('show-nav')
       })
+
+//date
+document.querySelector('#date').innerHTML = new Date().getFullYear()
+
+// heeader
+window.addEventListener('scroll', () => {
+  document.querySelector('.container-header').classList.toggle('stick', window.scrollY>0)
+})
