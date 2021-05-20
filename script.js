@@ -12,3 +12,8 @@ const open =document.querySelector('#open'),
 
 //date
 document.querySelector('#date').innerHTML = new Date().getFullYear()
+
+// heeader
+window.addEventListener('scroll', () => {
+  document.querySelector('.container-header').classList.toggle('stick', window.scrollY>0)
+})
