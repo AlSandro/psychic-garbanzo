@@ -6,6 +6,6 @@ spec:
   selector:
     app: wiremock
   ports:
-  - port: 80  # External port
-    targetPort: 8080  # WireMock container port
-  type: LoadBalancer  # Makes the service externally accessible
+  - port: 80 
+    targetPort: 8080 
+  type: ClusterIP  
