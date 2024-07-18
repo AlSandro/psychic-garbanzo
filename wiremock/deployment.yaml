@@ -14,6 +14,8 @@ spec:
     spec:
       containers:
       - name: wiremock
-        image: wiremock/wiremock:3.8.0-1
+        image: wiremock/wiremock:latest
+        args:
+        - --no-request-journal
         ports:
         - containerPort: 8080
