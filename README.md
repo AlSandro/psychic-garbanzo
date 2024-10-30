@@ -1,2 +1,2 @@
 # psychic-garbanzo
-Serge-boro training #5
+This is test for hayabusa tag action
