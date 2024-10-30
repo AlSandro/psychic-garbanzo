@@ -12,3 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: haya14busa/action-bumpr@v1
+        with:
+          default_bump_level: patch
